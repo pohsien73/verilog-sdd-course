@@ -1,30 +1,46 @@
 site_name: SDD/TDD/BDD for Verilog and Digital IC Design
-site_description: A practical course for applying spec-driven, test-driven, and behavior-driven development to Verilog and digital IC design.
+site_description: A practical premium-style course for applying spec-driven, test-driven, and behavior-driven development to Verilog and digital IC design.
 site_url: https://pohsien73.github.io/verilog-sdd-course/
 repo_name: pohsien73/verilog-sdd-course
 repo_url: https://github.com/pohsien73/verilog-sdd-course
 nav:
   - Home: index.md
   - Syllabus: syllabus.md
+  - Learning Path: course-path.md
   - Lessons:
       - Lesson 01 - Why SDD/TDD/BDD for RTL: lessons/lesson-01.md
       - Lesson 02 - Writing Good Hardware Specs: lessons/lesson-02.md
       - Lesson 03 - From Spec to Test Plan: lessons/lesson-03.md
-      - Lesson 04 - TDD for RTL Modules: lessons/lesson-04.md
+      - Lesson 04 - TDD Workflow for RTL: lessons/lesson-04.md
       - Lesson 05 - Refactoring Without Breaking Behavior: lessons/lesson-05.md
       - Lesson 06 - BDD for Digital Design: lessons/lesson-06.md
       - Lesson 07 - Assertions and Coverage: lessons/lesson-07.md
       - Lesson 08 - Capstone Project: lessons/lesson-08.md
+      - Lesson 09 - Refactoring Without Breaking Behavior: lessons/lesson-09.md
+      - Lesson 10 - BDD for Hardware Behavior: lessons/lesson-10.md
+      - Lesson 11 - Assertions and Intent Preservation: lessons/lesson-11.md
+      - Lesson 12 - Coverage and Requirement Completeness: lessons/lesson-12.md
+      - Lesson 13 - Capstone Architecture and Planning: lessons/lesson-13.md
+      - Lesson 14 - Capstone Implementation and Review: lessons/lesson-14.md
   - Homework:
       - HW 01: homework/hw-01.md
       - HW 02: homework/hw-02.md
       - HW 03: homework/hw-03.md
+      - HW 04: homework/hw-04.md
+      - HW 05: homework/hw-05.md
   - Quizzes:
       - Quiz 01: quizzes/quiz-01.md
       - Quiz 02: quizzes/quiz-02.md
       - Quiz 03: quizzes/quiz-03.md
+      - Quiz 04: quizzes/quiz-04.md
+  - Final Project: final-project.md
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
 markdown_extensions:
   - admonition
   - tables

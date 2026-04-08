@@ -1,6 +1,22 @@
 # verilog-sdd-course
 
-Public course site for learning SDD, TDD, and BDD in Verilog / digital IC design.
+A premium-style public course site for learning **SDD, TDD, and BDD in Verilog / digital IC design**.
+
+## Live site
+
+Expected public URL:
+- https://pohsien73.github.io/verilog-sdd-course/
+
+## Contents
+
+- premium-style homepage
+- full syllabus
+- 14 lessons
+- learning path
+- homework set
+- quizzes with answer keys
+- final project page
+- GitHub Pages deployment workflow
 
 ## Local preview
 
@@ -13,15 +29,4 @@ mkdocs serve
 
 ## Publish
 
-Recommended target:
-- GitHub account: `pohsien73`
-- Repository: `verilog-sdd-course`
-- GitHub Pages via Actions or `gh-pages`
-
-## Contents
-- course homepage
-- syllabus
-- lessons
-- homework
-- quizzes
-- capstone
+This project is configured for GitHub Pages via GitHub Actions.
